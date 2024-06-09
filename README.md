@@ -17,9 +17,15 @@ cd /opt/splunkforwarder/bin
 	./splunk restart
 	./splunk help
 sudo ./splunk start --accept-license
-# Add this to install without cred
-sudo ./splunk start --accept-license --no-prompt
+
 sudo ./splunk enable boot-start
+```
+## Add this to install without credentials
+```ruby
+sudo ./splunk start --accept-license --no-prompt
+IMPORTANT: Because an admin password was not provided, the admin user
+ will not be created. You will have to set up an admin username/password
+ later using user-seed.conf.
 ```
 How to forward logs to HF/Index
 ```ruby
