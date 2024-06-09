@@ -16,7 +16,9 @@ cd /opt/splunkforwarder/bin
 	./splunk stop
 	./splunk restart
 	./splunk help
-sudo ./splunk start --accept-license 
+sudo ./splunk start --accept-license
+# Add this to install without cred
+sudo ./splunk start --accept-license --no-prompt
 sudo ./splunk enable boot-start
 ```
 How to forward logs to HF/Index
