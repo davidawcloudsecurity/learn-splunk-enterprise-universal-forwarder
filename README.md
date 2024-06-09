@@ -17,7 +17,6 @@ cd /opt/splunkforwarder/bin
 	./splunk restart
 	./splunk help
 sudo ./splunk start --accept-license
-
 sudo ./splunk enable boot-start
 ```
 ## Add this to install without credentials
