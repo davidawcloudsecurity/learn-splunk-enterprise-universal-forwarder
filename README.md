@@ -43,3 +43,5 @@ sudo ./splunk list forward-server
 https://docs.splunk.com/Documentation/Forwarder/9.2.1/Forwarder/Configuretheuniversalforwarder
 
 https://docs.splunk.com/Documentation/Splunk/9.2.1/Installation/StartSplunkforthefirsttime
+
+https://docs.splunk.com/Documentation/Splunk/7.3.1/Forwarding/Enableareceiver
