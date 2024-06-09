@@ -29,7 +29,8 @@ IMPORTANT: Because an admin password was not provided, the admin user
 How to forward logs to HF/Index
 ```ruby
 sudo ./splunk add forward-server X.X.X.X:9997
-OR sudo ./splunk add forward-server X.X.X.X:9997 -auth <username>:<password>
+OR
+sudo ./splunk add forward-server X.X.X.X:9997 -auth <username>:<cleartextpassword>
 sudo ./splunk list forward-server
 sudo ./splunk list monitor 
 sudo ./splunk add monitor /var/log 
