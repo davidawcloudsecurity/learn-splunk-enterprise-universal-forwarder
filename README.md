@@ -26,6 +26,10 @@ IMPORTANT: Because an admin password was not provided, the admin user
  will not be created. You will have to set up an admin username/password
  later using user-seed.conf.
 ```
+## How to enable port 9997
+```ruby
+sudo ./splunk enable listen 9997 -auth <username>:<cleartextpassword>
+```
 How to forward logs to HF/Index
 ```ruby
 sudo ./splunk add forward-server X.X.X.X:9997
