@@ -49,3 +49,5 @@ https://docs.splunk.com/Documentation/Forwarder/9.2.1/Forwarder/Configuretheuniv
 https://docs.splunk.com/Documentation/Splunk/9.2.1/Installation/StartSplunkforthefirsttime
 
 https://docs.splunk.com/Documentation/Splunk/7.3.1/Forwarding/Enableareceiver
+
+https://community.splunk.com/t5/Installation/How-to-Retrieve-Splunk-admin-password/m-p/543865
