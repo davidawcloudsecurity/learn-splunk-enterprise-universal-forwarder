@@ -1,4 +1,8 @@
 # learn-splunk-enterprise-universal-forwarder
+How to upgrade
+```
+rpm -Uvh splunk-6.0.2-196940-linux-2.6-x86_64.rpm --relocate /opt=/mnt/XX/
+```
 How to install splunk enterprise and universal forwarder
 
 ```ruby
@@ -53,6 +57,8 @@ sudo ./splunk restart
 sudo ./splunk list forward-server
 ```
 ## Resource
+https://community.splunk.com/t5/Installation/Upgrade-Splunk-using-RPM/m-p/32018
+
 https://docs.splunk.com/Documentation/Forwarder/9.2.1/Forwarder/Configuretheuniversalforwarder
 
 https://docs.splunk.com/Documentation/Splunk/9.2.1/Installation/StartSplunkforthefirsttime
